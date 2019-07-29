@@ -8,7 +8,9 @@ int main()
     remainder=number%2;
     if(remainder==0)
     cout<<"Even";
-    else
+    else if (remainder==1)
     cout<<"Odd";
+    else
+    cout<<"Invalid";
 	return 0;
 }
