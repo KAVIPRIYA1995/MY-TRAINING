@@ -4,7 +4,6 @@ int main()
 {
 	int exponent;
 	float base,result=1;
-	cout<<"";
 	cin>>base>>exponent;
 	while(exponent!=0)
 	{
